@@ -6,14 +6,18 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>My Project</title>
+    <title>Draw me</title>
 </head>
 
 <body>
-<h1>Project Starter</h1>
-<h2>Hello</h2>
-<h2>hello 2</h2>
-
+<canvas id="canvas" width="800" height="720"></canvas>
+<div class="toolbox">
+    <button id="decrease">-</button>
+    <span id="size">20</span>
+    <button id="increase">+</button>
+    <input type="color" id="color">
+    <button id="clear">X</button>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
